@@ -1,10 +1,12 @@
 :root {
-  --background-color: #f7f9fe;
-  --primary-color: #6c63ff;
+  --primary-color: #0b570b;
+  --primary-color-hover: #347434;
+  --text-color: #211b1b;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  color: var(--text-color);
 }
 
 h1,
@@ -30,7 +32,8 @@ p {
 
 .hero {
   text-align: center;
-  background: var(--background-color);
+  background: url(background-images/forest.jpg);
+  background-size: cover;
   padding: 120px 30px;
   max-width: 100%;
 }
@@ -57,7 +60,7 @@ p {
 }
 
 .btn-primary:hover {
-  opacity: 0.8;
+  background: var(--primary-color-hover);
 }
 
 .btn-outline {
