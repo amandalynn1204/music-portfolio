@@ -41,6 +41,7 @@ p {
 .hero h2 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
+  font-weight: bold;
   margin: 30px auto 60px;
 }
 
