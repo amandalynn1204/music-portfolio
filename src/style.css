@@ -51,8 +51,9 @@ p {
   font-size: 36px;
 }
 
-.about-section {
-  padding: 80px 30px 0;
+.about-section,
+.music-covers {
+  margin: 100px;
   max-width: 100%;
 }
 
@@ -62,7 +63,8 @@ p {
   border-radius: 10px;
 }
 
-.about-section h1 {
+.about-section h1,
+.music-covers h1 {
   font-size: 64px;
   line-height: 85px;
 }
@@ -84,6 +86,14 @@ p {
 .about-img-gallery img {
   margin: 13px auto;
   display: block;
+}
+
+.music-covers-content {
+  display: block;
+}
+
+.music-covers-content .video {
+  max-width: 100%;
 }
 
 .btn-primary {
@@ -129,11 +139,14 @@ p {
     font-size: 45px;
   }
 
-  .about-section {
+  .about-section,
+  .music-covers {
     text-align: center;
+    margin: 50px 15px;
   }
 
-  .about-section h1 {
+  .about-section h1,
+  .music-covers h1 {
     font-size: 50px;
     line-height: 60px;
   }
