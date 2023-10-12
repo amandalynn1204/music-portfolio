@@ -52,7 +52,8 @@ p {
 }
 
 .about-section,
-.music-covers {
+.music-covers,
+.contact-section {
   margin: 100px;
   max-width: 100%;
 }
@@ -64,7 +65,8 @@ p {
 }
 
 .about-section h1,
-.music-covers h1 {
+.music-covers,
+.contact-section h1 {
   font-size: 64px;
   line-height: 85px;
 }
@@ -104,6 +106,26 @@ p {
 
 .music-covers-content p {
   font-size: 14px;
+}
+
+.contact-section-content {
+  text-align: center;
+}
+
+.contact-section-content h2 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.contact-section-content a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contact-section-content a:hover {
+  text-decoration: underline;
+  color: var(--primary-color-hover);
 }
 
 .btn-primary {
@@ -150,13 +172,15 @@ p {
   }
 
   .about-section,
-  .music-covers {
+  .music-covers,
+  .contact-section {
     text-align: center;
     margin: 50px 15px;
   }
 
   .about-section h1,
-  .music-covers h1 {
+  .music-covers h1,
+  .contact-section h1 {
     font-size: 50px;
     line-height: 60px;
   }
