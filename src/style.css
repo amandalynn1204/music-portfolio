@@ -1,7 +1,8 @@
 :root {
-  --primary-color: #0b570b;
-  --primary-color-hover: #347434;
   --text-color: #211b1b;
+  --primary-color: #0b570b;
+  --primary-color-hover: #438843;
+  --background-color: #f5f1dc;
 }
 
 body {
@@ -65,6 +66,55 @@ h6 {
 
 p {
   line-height: 30px;
+}
+
+footer .contact-banner {
+  background: var(--background-color);
+  padding: 30px 80px;
+  border-radius: 10px;
+  margin: 100px 120px 0;
+}
+
+footer .contact-banner h4 {
+  font-size: 48px;
+}
+
+footer .contact-banner p {
+  margin: 0;
+}
+
+footer .contact-banner .btn-primary {
+  position: relative;
+  top: 40px;
+}
+
+footer .email-link {
+  margin-top: 80px;
+}
+
+footer .email-link a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+footer .email-link a:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  color: var(--primary-color);
+  background: var(--background-color);
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin: 0 15px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
 }
 
 .hero {
@@ -170,6 +220,7 @@ p {
 .contact-section-content a {
   text-decoration: none;
   color: var(--primary-color);
+  transition: all 150ms ease-in-out;
 }
 
 .contact-section-content a:hover {
@@ -249,10 +300,6 @@ p {
   .contact-section {
     text-align: center;
     padding: 100px 15px 0;
-  }
-
-  .contact-section {
-    padding: 100px 15px 30px;
   }
 
   .about-section h1,
