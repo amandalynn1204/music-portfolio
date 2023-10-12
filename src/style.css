@@ -51,10 +51,8 @@ p {
   font-size: 64px;
 }
 
-.about-section,
-.music-covers,
-.contact-section {
-  margin: 100px;
+.about-section {
+  margin: 100px 100px 30px;
   max-width: 100%;
 }
 
@@ -88,6 +86,12 @@ p {
 .about-img-gallery img {
   margin: 13px auto;
   display: block;
+}
+
+.music-covers,
+.contact-section {
+  margin: 100px;
+  max-width: 100%;
 }
 
 .music-covers-content {
