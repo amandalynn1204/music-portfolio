@@ -1,5 +1,5 @@
 :root {
-  --text-color: #211b1b;
+  --text-color: #000000;
   --primary-color: #0b570b;
   --primary-color-hover: #438843;
   --background-color: #f5f1dc;
@@ -96,6 +96,7 @@ footer .email-link a {
   color: var(--text-color);
   text-decoration: none;
   font-size: 24px;
+  transition: all 150ms ease-in-out;
 }
 
 footer .email-link a:hover {
@@ -115,6 +116,16 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--primary-color);
+}
+
+footer p a {
+  color: var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+
+footer p a:hover {
+  color: #438843;
+  text-decoration: none;
 }
 
 .hero {
